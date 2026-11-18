@@ -1,0 +1,221 @@
+{
+  "blocks": [
+    {
+      "id": "block-saas-012",
+      "type": "AppHeader",
+      "brandName": "Lumen",
+      "menus": [
+        {
+          "title": "Product",
+          "path": "/#features",
+          "children": [
+            {
+              "title": "Analytics",
+              "path": "/#features"
+            },
+            {
+              "title": "Dashboards",
+              "path": "/#features"
+            },
+            {
+              "title": "Integrations",
+              "path": "/#features"
+            }
+          ]
+        },
+        {
+          "title": "Pricing",
+          "path": "/pricing"
+        },
+        {
+          "title": "Customers",
+          "path": "/#customers"
+        },
+        {
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "ctaLabel": "Start free",
+      "ctaLink": "/pricing",
+      "secondaryLabel": "Log in",
+      "secondaryLink": "#",
+      "variant": "glass",
+      "sticky": true
+    },
+    {
+      "id": "block-saas-013",
+      "type": "Banner",
+      "eyebrow": "Pricing",
+      "title": "Plans that *grow* with you",
+      "subtitle": "Start free and upgrade when you need more. No surprises, cancel anytime.",
+      "breadcrumb": "Pricing",
+      "align": "center",
+      "background": "grid",
+      "tone": "light",
+      "homeLabel": "Home"
+    },
+    {
+      "id": "block-saas-014",
+      "type": "Pricing",
+      "plans": [
+        {
+          "name": "Starter",
+          "price": "$0",
+          "period": "/month",
+          "description": "For side projects and small teams.",
+          "features": "Up to 10k events / month\n3 dashboards\n7-day history\nCommunity support",
+          "ctaLabel": "Start free",
+          "ctaLink": "#",
+          "highlighted": false,
+          "badge": ""
+        },
+        {
+          "name": "Growth",
+          "price": "$49",
+          "period": "/month",
+          "description": "For teams making decisions with data.",
+          "features": "Up to 1M events / month\nUnlimited dashboards\nAI explanations\n12-month history\nSlack & email alerts",
+          "ctaLabel": "Start 14-day trial",
+          "ctaLink": "#",
+          "highlighted": true,
+          "badge": "Most popular"
+        },
+        {
+          "name": "Scale",
+          "price": "Custom",
+          "period": "",
+          "description": "For large orgs with advanced needs.",
+          "features": "Unlimited events\nSSO & audit logs\nData warehouse sync\nDedicated success manager\n99.99% uptime SLA",
+          "ctaLabel": "Talk to sales",
+          "ctaLink": "/contact",
+          "highlighted": false,
+          "badge": ""
+        }
+      ],
+      "note": "Prices in USD. Save 20% with annual billing.",
+      "tone": "light",
+      "space": "sm",
+      "anchor": "pricing"
+    },
+    {
+      "id": "block-saas-015",
+      "type": "LogoCloud",
+      "title": "Join 2,000+ teams already using Lumen",
+      "tone": "light",
+      "space": "sm",
+      "logos": [
+        {
+          "name": "Northwind",
+          "icon": "hexagon-slice-6"
+        },
+        {
+          "name": "Brightlane",
+          "icon": "lightning-bolt"
+        },
+        {
+          "name": "Parcelly",
+          "icon": "package-variant"
+        },
+        {
+          "name": "Fieldnote",
+          "icon": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "block-saas-016",
+      "type": "Faq",
+      "eyebrow": "FAQ",
+      "title": "Billing *questions*",
+      "items": [
+        {
+          "question": "How long does setup take?",
+          "answer": "Most teams send their first events within 15 minutes using our snippet or one of 40+ integrations."
+        },
+        {
+          "question": "Do I need a data team to use Lumen?",
+          "answer": "No. Lumen is built for product, growth and marketing teams. Questions are answered in plain language, no SQL required."
+        },
+        {
+          "question": "Can I cancel anytime?",
+          "answer": "Yes. Plans are month-to-month and you can export all of your data whenever you like."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Data is encrypted in transit and at rest, and we're SOC 2 Type II certified. Scale plans add SSO and audit logs."
+        },
+        {
+          "question": "Do you offer discounts for startups or non-profits?",
+          "answer": "Yes: 50% off Growth for the first year. Contact us with a few details about your organisation."
+        }
+      ],
+      "layout": "centered",
+      "openFirst": false,
+      "tone": "muted",
+      "space": "md",
+      "anchor": "faq"
+    },
+    {
+      "id": "block-saas-017",
+      "type": "CTA",
+      "title": "Start understanding your *users* today",
+      "subtitle": "Free for 14 days. No credit card required.",
+      "primaryLabel": "Start free trial",
+      "primaryLink": "/pricing",
+      "secondaryLabel": "Book a demo",
+      "secondaryLink": "/contact",
+      "variant": "card",
+      "align": "center",
+      "tone": "brand",
+      "space": "md"
+    },
+    {
+      "id": "block-saas-018",
+      "type": "Footer",
+      "brandName": "Lumen",
+      "description": "Product analytics that explain themselves. Built for teams who would rather act than write queries.",
+      "columns": [
+        {
+          "title": "Product",
+          "links": "Features | /#features\nPricing | /pricing\nChangelog | #\nRoadmap | #"
+        },
+        {
+          "title": "Company",
+          "links": "About | #\nCustomers | /#customers\nCareers | #\nContact | /contact"
+        },
+        {
+          "title": "Resources",
+          "links": "Docs | #\nGuides | #\nAPI status | #"
+        }
+      ],
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "#"
+        },
+        {
+          "icon": "linkedin",
+          "link": "#"
+        },
+        {
+          "icon": "github",
+          "link": "#"
+        }
+      ],
+      "legal": "Privacy | #\nTerms | #",
+      "copyright": "© {year} Lumen Analytics, Inc.",
+      "tone": "muted"
+    }
+  ],
+  "settings": {
+    "layout": "default",
+    "accentColor": "#4f46e5",
+    "font": "modern",
+    "corners": "soft",
+    "containerWidth": "full",
+    "pagePadding": "none",
+    "maxWidth": "1280",
+    "footerSpacing": false
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "blocks": [
+    {
+      "id": "block-agency-001",
+      "type": "AppHeader",
+      "brandName": "Northbound",
+      "menus": [
+        {
+          "title": "Work",
+          "path": "/#work"
+        },
+        {
+          "title": "Services",
+          "path": "/#services"
+        },
+        {
+          "title": "Studio",
+          "path": "/about"
+        },
+        {
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "ctaLabel": "Start a project",
+      "ctaLink": "/contact",
+      "variant": "dark",
+      "sticky": true
+    },
+    {
+      "id": "block-agency-002",
+      "type": "Hero",
+      "badge": "Now booking projects for Q1",
+      "badgeLink": "/contact",
+      "title": "We design brands & products that *move people*",
+      "subtitle": "Northbound is an independent studio for strategy, identity and digital product. Small team, senior people, big outcomes.",
+      "primaryLabel": "Start a project",
+      "primaryLink": "/contact",
+      "secondaryLabel": "See our work",
+      "secondaryLink": "#work",
+      "layout": "split",
+      "visual": "shape3d",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=80",
+      "background": "grid",
+      "tone": "dark",
+      "badgeTag": "New",
+      "mockupStats": [
+        {
+          "label": "Revenue",
+          "value": "$48.2k",
+          "change": "+12.4%",
+          "trend": "up"
+        },
+        {
+          "label": "Users",
+          "value": "3,904",
+          "change": "+8.1%",
+          "trend": "up"
+        },
+        {
+          "label": "Churn",
+          "value": "1.2%",
+          "change": "-0.4%",
+          "trend": "up"
+        }
+      ],
+      "shape": "knot",
+      "autoRotate": true,
+      "model": "",
+      "video": "",
+      "videoPoster": "",
+      "tilt": false,
+      "backgroundVideo": ""
+    },
+    {
+      "id": "block-agency-003",
+      "type": "LogoCloud",
+      "title": "Brands we've helped launch and grow",
+      "tone": "dark",
+      "space": "sm",
+      "logos": [
+        {
+          "name": "Aurora",
+          "icon": "weather-sunset"
+        },
+        {
+          "name": "Quiet Desk",
+          "icon": "desk-lamp"
+        },
+        {
+          "name": "Hue",
+          "icon": "palette-outline"
+        },
+        {
+          "name": "Folio",
+          "icon": "draw"
+        },
+        {
+          "name": "Orbit",
+          "icon": "orbit"
+        }
+      ]
+    },
+    {
+      "id": "block-agency-004",
+      "type": "Features",
+      "eyebrow": "Services",
+      "title": "What we *do* best",
+      "subtitle": "End-to-end, or exactly the piece you need.",
+      "layout": "list",
+      "align": "left",
+      "tone": "light",
+      "space": "lg",
+      "anchor": "services",
+      "items": [
+        {
+          "icon": "palette-swatch-outline",
+          "title": "Brand identity",
+          "description": "Strategy, naming, logo and visual systems that hold up from favicon to billboard."
+        },
+        {
+          "icon": "monitor-cellphone",
+          "title": "Websites",
+          "description": "Fast, accessible marketing sites with editing your team will actually enjoy."
+        },
+        {
+          "icon": "gesture-tap-button",
+          "title": "Product design",
+          "description": "Research-led UX and UI for web and mobile apps, from first prototype to design system."
+        },
+        {
+          "icon": "code-tags",
+          "title": "Development",
+          "description": "Production-grade front-ends and headless CMS builds, shipped and supported."
+        }
+      ],
+      "linkLabel": "Learn more",
+      "columns": "3"
+    },
+    {
+      "id": "block-agency-005",
+      "type": "Gallery",
+      "eyebrow": "Selected work",
+      "title": "Recent *projects*",
+      "images": [
+        {
+          "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1400&q=80",
+          "caption": "Hue: colour system for a paint brand"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=900&q=80",
+          "caption": "Folio: tablet sketching app"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=900&q=80",
+          "caption": "Aurora: brand motion identity"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=900&q=80",
+          "caption": "Lumen: product launch site"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=900&q=80",
+          "caption": "Quiet Desk: e-commerce redesign"
+        }
+      ],
+      "layout": "grid",
+      "align": "left",
+      "tone": "light",
+      "space": "sm"
+    },
+    {
+      "id": "block-agency-006",
+      "type": "Stats",
+      "tone": "dark",
+      "space": "md",
+      "variant": "cards",
+      "align": "left",
+      "items": [
+        {
+          "value": "12",
+          "label": "Years in business"
+        },
+        {
+          "value": "140+",
+          "label": "Projects shipped"
+        },
+        {
+          "value": "18",
+          "label": "Design awards"
+        },
+        {
+          "value": "92%",
+          "label": "Clients who return"
+        }
+      ]
+    },
+    {
+      "id": "block-agency-007",
+      "type": "Testimonials",
+      "layout": "spotlight",
+      "tone": "light",
+      "space": "lg",
+      "items": [
+        {
+          "quote": "Northbound didn't just redesign our brand; they gave us a clearer idea of who we are. Sales calls got easier the week we launched.",
+          "name": "Clara Jensen",
+          "role": "CEO, Quiet Desk",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=200&h=200&q=80"
+        }
+      ],
+      "align": "center",
+      "showRating": false
+    },
+    {
+      "id": "block-agency-008",
+      "type": "Team",
+      "eyebrow": "Studio",
+      "title": "Small team. *Senior* people.",
+      "subtitle": "You work directly with the people doing the work, no hand-offs.",
+      "members": [
+        {
+          "name": "Ava Lindqvist",
+          "role": "Founder & Creative Director",
+          "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&h=750&q=80",
+          "link": "#"
+        },
+        {
+          "name": "Noah Becker",
+          "role": "Design Lead",
+          "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&h=750&q=80",
+          "link": "#"
+        },
+        {
+          "name": "Leila Haddad",
+          "role": "Head of Technology",
+          "photo": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&h=750&q=80",
+          "link": "#"
+        },
+        {
+          "name": "Sam Ortega",
+          "role": "Motion Designer",
+          "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&h=750&q=80",
+          "link": "#"
+        }
+      ],
+      "align": "left",
+      "tone": "muted",
+      "space": "md"
+    },
+    {
+      "id": "block-agency-009",
+      "type": "CTA",
+      "eyebrow": "Have a project in mind?",
+      "title": "Let's make something *remarkable*",
+      "subtitle": "Tell us where you want to go. We'll reply within two working days with next steps.",
+      "primaryLabel": "Start a project",
+      "primaryLink": "/contact",
+      "secondaryLabel": "hello@northbound.studio",
+      "secondaryLink": "mailto:hello@northbound.studio",
+      "variant": "band",
+      "align": "left",
+      "tone": "brand",
+      "space": "lg"
+    },
+    {
+      "id": "block-agency-010",
+      "type": "Footer",
+      "brandName": "Northbound",
+      "description": "An independent design & technology studio. We build brands, products and websites for ambitious teams.",
+      "columns": [
+        {
+          "title": "Studio",
+          "links": "About | /about\nWork | /#work\nCareers | #"
+        },
+        {
+          "title": "Services",
+          "links": "Brand identity | /#services\nWeb design | /#services\nProduct design | /#services\nDevelopment | /#services"
+        },
+        {
+          "title": "Say hi",
+          "links": "hello@northbound.studio | mailto:hello@northbound.studio\nInstagram | #\nVimeo | #"
+        }
+      ],
+      "socials": [
+        {
+          "icon": "instagram",
+          "link": "#"
+        },
+        {
+          "icon": "vimeo",
+          "link": "#"
+        },
+        {
+          "icon": "linkedin",
+          "link": "#"
+        }
+      ],
+      "legal": "Privacy | #\nImprint | #",
+      "copyright": "© {year} Northbound Studio",
+      "tone": "dark"
+    }
+  ],
+  "settings": {
+    "layout": "default",
+    "accentColor": "#c6f432",
+    "font": "tech",
+    "corners": "sharp",
+    "containerWidth": "full",
+    "pagePadding": "none",
+    "maxWidth": "1280",
+    "footerSpacing": false
+  }
+}

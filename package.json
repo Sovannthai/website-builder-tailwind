@@ -1,0 +1,30 @@
+{
+  "name": "template-website-tailwind",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "export:site": "tsx scripts/export-site.ts"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxt/vite-builder": "^4.2.2",
+    "@tailwindcss/vite": "^4.1.0",
+    "@vueuse/nuxt": "^14.1.0",
+    "fflate": "^0.8.3",
+    "nuxt": "^4.2.2",
+    "tailwindcss": "^4.1.0",
+    "three": "^0.187.0",
+    "vue": "^3.5.26",
+    "vue-router": "^4.6.4",
+    "vue-wswg-editor": "^0.0.53"
+  },
+  "devDependencies": {
+    "@types/three": "^0.187.0",
+    "tsx": "^4.21.0"
+  }
+}

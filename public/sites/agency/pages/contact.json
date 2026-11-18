@@ -1,0 +1,117 @@
+{
+  "blocks": [
+    {
+      "id": "block-agency-017",
+      "type": "AppHeader",
+      "brandName": "Northbound",
+      "menus": [
+        {
+          "title": "Work",
+          "path": "/#work"
+        },
+        {
+          "title": "Services",
+          "path": "/#services"
+        },
+        {
+          "title": "Studio",
+          "path": "/about"
+        },
+        {
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "ctaLabel": "Start a project",
+      "ctaLink": "/contact",
+      "variant": "dark",
+      "sticky": true
+    },
+    {
+      "id": "block-agency-018",
+      "type": "ContactForm",
+      "eyebrow": "Contact",
+      "title": "Tell us about your *project*",
+      "subtitle": "A few lines is plenty. We'll reply within two working days.",
+      "details": [
+        {
+          "icon": "email-outline",
+          "label": "New business",
+          "value": "hello@northbound.studio",
+          "link": "mailto:hello@northbound.studio"
+        },
+        {
+          "icon": "phone-outline",
+          "label": "Phone",
+          "value": "+45 12 34 56 78",
+          "link": "tel:+4512345678"
+        },
+        {
+          "icon": "map-marker-outline",
+          "label": "Studios",
+          "value": "Copenhagen · Lisbon"
+        }
+      ],
+      "showPhone": true,
+      "topics": "Brand identity\nWebsite\nProduct design\nSomething else",
+      "submitLabel": "Send enquiry",
+      "tone": "dark",
+      "space": "lg",
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "topicLabel": "Topic",
+      "messageLabel": "Message",
+      "errorMessage": "Something went wrong. Please try again.",
+      "anchor": "contact",
+      "successMessage": "Thanks! We'll get back to you soon."
+    },
+    {
+      "id": "block-agency-019",
+      "type": "Footer",
+      "brandName": "Northbound",
+      "description": "An independent design & technology studio. We build brands, products and websites for ambitious teams.",
+      "columns": [
+        {
+          "title": "Studio",
+          "links": "About | /about\nWork | /#work\nCareers | #"
+        },
+        {
+          "title": "Services",
+          "links": "Brand identity | /#services\nWeb design | /#services\nProduct design | /#services\nDevelopment | /#services"
+        },
+        {
+          "title": "Say hi",
+          "links": "hello@northbound.studio | mailto:hello@northbound.studio\nInstagram | #\nVimeo | #"
+        }
+      ],
+      "socials": [
+        {
+          "icon": "instagram",
+          "link": "#"
+        },
+        {
+          "icon": "vimeo",
+          "link": "#"
+        },
+        {
+          "icon": "linkedin",
+          "link": "#"
+        }
+      ],
+      "legal": "Privacy | #\nImprint | #",
+      "copyright": "© {year} Northbound Studio",
+      "tone": "dark"
+    }
+  ],
+  "settings": {
+    "layout": "default",
+    "accentColor": "#c6f432",
+    "font": "tech",
+    "corners": "sharp",
+    "containerWidth": "full",
+    "pagePadding": "none",
+    "maxWidth": "1280",
+    "footerSpacing": false
+  }
+}

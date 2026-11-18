@@ -1,0 +1,440 @@
+{
+  "blocks": [
+    {
+      "id": "block-saas-001",
+      "type": "AppHeader",
+      "brandName": "Lumen",
+      "menus": [
+        {
+          "id": "9ae417f8-842c-4143-82b6-077ea6b428e5",
+          "title": "Product",
+          "path": "/#features",
+          "children": [
+            {
+              "title": "Analytics",
+              "path": "/#features"
+            },
+            {
+              "title": "Dashboards",
+              "path": "/#features"
+            },
+            {
+              "title": "Integrations",
+              "path": "/#features"
+            }
+          ]
+        },
+        {
+          "id": "8d4131c4-075f-40db-bac1-3be3e4e5c2a9",
+          "title": "Pricing",
+          "path": "/pricing"
+        },
+        {
+          "id": "361182e0-4fd5-4566-a40a-7096ad61af61",
+          "title": "Customers",
+          "path": "/#customers"
+        },
+        {
+          "id": "7cde9997-7496-4bf7-8ab7-b3baeb914d72",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "ctaLabel": "Start free",
+      "ctaLink": "/pricing",
+      "secondaryLabel": "Log in",
+      "secondaryLink": "#",
+      "variant": "glass",
+      "sticky": true
+    },
+    {
+      "id": "block-saas-002",
+      "type": "Hero",
+      "badge": "Lumen 2.0: AI explanations are here",
+      "badgeLink": "#features",
+      "title": "Analytics that *explain themselves*",
+      "subtitle": "Turn product data into clear answers your whole team can act on, without writing a single query.",
+      "primaryLabel": "Start free trial",
+      "primaryLink": "/pricing",
+      "secondaryLabel": "Book a demo",
+      "secondaryLink": "/contact",
+      "note": "Free 14-day trial. No credit card required.",
+      "layout": "split",
+      "visual": "mockup",
+      "background": "glow",
+      "tone": "light",
+      "badgeTag": "New",
+      "mockupStats": [
+        {
+          "id": "48f0a42b-ad90-459c-bd53-d83d1953a6cc",
+          "label": "Revenue",
+          "value": "$48.2k",
+          "change": "+12.4%",
+          "trend": "up"
+        },
+        {
+          "id": "6fc41ebc-e43b-4eec-b25a-7bb93a0d60fe",
+          "label": "Users",
+          "value": "3,904",
+          "change": "+8.1%",
+          "trend": "up"
+        },
+        {
+          "id": "da9bd049-bc73-404e-86b4-cba37a9d03c5",
+          "label": "Churn",
+          "value": "1.2%",
+          "change": "-0.4%",
+          "trend": "up"
+        }
+      ],
+      "tilt": true,
+      "video": "",
+      "videoPoster": "",
+      "shape": "gem",
+      "model": "",
+      "autoRotate": true,
+      "backgroundVideo": ""
+    },
+    {
+      "id": "block-saas-003",
+      "type": "LogoCloud",
+      "title": "Trusted by 2,000+ product teams",
+      "tone": "light",
+      "space": "sm",
+      "logos": [
+        {
+          "id": "fe299c1a-db1b-4c7d-bc55-57c036f6b824",
+          "name": "Northwind",
+          "icon": "hexagon-slice-6"
+        },
+        {
+          "id": "68b5f5c2-4431-44c3-8292-f8bd30787373",
+          "name": "Brightlane",
+          "icon": "lightning-bolt"
+        },
+        {
+          "id": "b8003dc1-5e84-4a24-94b8-9e97bf48c90d",
+          "name": "Parcelly",
+          "icon": "package-variant"
+        },
+        {
+          "id": "2217baff-acca-4fe9-af9a-d31e9d5854d9",
+          "name": "Fieldnote",
+          "icon": "leaf"
+        },
+        {
+          "id": "8a7d45cb-da22-4e42-85f2-a91413db3a13",
+          "name": "Tidewater",
+          "icon": "waves"
+        },
+        {
+          "id": "72739477-9a76-4644-8fd6-7da59e19819b",
+          "name": "Voltage",
+          "icon": "flash-outline"
+        }
+      ]
+    },
+    {
+      "id": "block-saas-004",
+      "type": "Features",
+      "eyebrow": "Features",
+      "title": "Everything you need to *understand* your product",
+      "subtitle": "From the first click to renewal, see what users do and why, all in one place.",
+      "layout": "bento",
+      "align": "center",
+      "tone": "muted",
+      "space": "md",
+      "anchor": "features",
+      "items": [
+        {
+          "icon": "chart-timeline-variant-shimmer",
+          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=80",
+          "title": "Dashboards that build themselves",
+          "description": "Pick a goal and Lumen assembles the charts that matter. Share live links with anyone on your team."
+        },
+        {
+          "icon": "robot-happy-outline",
+          "title": "AI explanations",
+          "description": "Ask why a metric moved and get a plain-English answer with the evidence."
+        },
+        {
+          "icon": "filter-variant",
+          "title": "Funnels & retention",
+          "description": "Find exactly where users drop off and which cohorts stick around."
+        },
+        {
+          "icon": "bell-ring-outline",
+          "title": "Smart alerts",
+          "description": "Get a Slack message the moment a key metric changes, before your customers notice."
+        },
+        {
+          "icon": "puzzle-outline",
+          "title": "40+ integrations",
+          "description": "Segment, Stripe, HubSpot, BigQuery and more, connected in two clicks."
+        }
+      ],
+      "linkLabel": "Learn more",
+      "columns": "3"
+    },
+    {
+      "id": "block-saas-005",
+      "type": "Content",
+      "eyebrow": "Why Lumen",
+      "title": "Stop guessing. *Start knowing.*",
+      "body": "Most analytics tools give you charts and leave the thinking to you. Lumen connects the dots, so the whole team sees the same story and acts on it.",
+      "bullets": "Answers in seconds, not sprint cycles\nOne source of truth for product, growth and sales\nPrivacy-first: no cookies required",
+      "buttonLabel": "See how it works",
+      "buttonLink": "#features",
+      "linkLabel": "Read customer stories",
+      "linkLink": "#customers",
+      "visual": "image",
+      "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
+      "mediaSide": "right",
+      "tone": "light",
+      "space": "md",
+      "aspect": "4/3",
+      "mockupStats": [
+        {
+          "label": "Revenue",
+          "value": "$48.2k",
+          "change": "+12.4%",
+          "trend": "up"
+        },
+        {
+          "label": "Users",
+          "value": "3,904",
+          "change": "+8.1%",
+          "trend": "up"
+        },
+        {
+          "label": "Churn",
+          "value": "1.2%",
+          "change": "-0.4%",
+          "trend": "up"
+        }
+      ]
+    },
+    {
+      "id": "block-saas-006",
+      "type": "Stats",
+      "tone": "dark",
+      "space": "md",
+      "variant": "divided",
+      "align": "center",
+      "items": [
+        {
+          "value": "2,000+",
+          "label": "Product teams",
+          "description": "from startups to public companies"
+        },
+        {
+          "value": "4.2B",
+          "label": "Events a month",
+          "description": "processed in real time"
+        },
+        {
+          "value": "37%",
+          "label": "Faster decisions",
+          "description": "reported by customers"
+        },
+        {
+          "value": "99.99%",
+          "label": "Uptime",
+          "description": "over the last 12 months"
+        }
+      ]
+    },
+    {
+      "id": "block-saas-007",
+      "type": "Testimonials",
+      "eyebrow": "Customers",
+      "title": "Teams *love* working with Lumen",
+      "layout": "grid",
+      "showRating": true,
+      "align": "center",
+      "tone": "light",
+      "space": "md",
+      "items": [
+        {
+          "quote": "We replaced three tools with Lumen. Our PMs finally answer their own questions, and the data team got their week back.",
+          "name": "Sofia Martins",
+          "role": "VP Product, Northwind",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=160&h=160&q=80"
+        },
+        {
+          "quote": "Setup took an afternoon. The weekly digest alone changed how our leadership meeting runs.",
+          "name": "Daniel Okafor",
+          "role": "Head of Growth, Brightlane",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=160&h=160&q=80"
+        },
+        {
+          "quote": "The funnel explanations are scary good. It spotted a checkout drop-off before support tickets did.",
+          "name": "Mei Tanaka",
+          "role": "Founder, Parcelly",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=160&h=160&q=80"
+        },
+        {
+          "quote": "Finally an analytics tool our designers actually open. Clean, fast, and it doesn't make you feel dumb.",
+          "name": "Lucas Brennan",
+          "role": "Design Lead, Fieldnote",
+          "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=160&h=160&q=80"
+        },
+        {
+          "quote": "Lumen's alerts paid for the subscription in the first month.",
+          "name": "Hannah Weiss",
+          "role": "COO, Tidewater",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=160&h=160&q=80"
+        },
+        {
+          "quote": "Support answers in minutes, not days. Rare these days.",
+          "name": "Marco Ruiz",
+          "role": "Engineering Manager, Voltage",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=160&h=160&q=80"
+        }
+      ]
+    },
+    {
+      "id": "block-saas-008",
+      "type": "Pricing",
+      "eyebrow": "Pricing",
+      "title": "Simple, *transparent* pricing",
+      "subtitle": "Start free, upgrade when you grow. Every plan includes unlimited seats.",
+      "plans": [
+        {
+          "name": "Starter",
+          "price": "$0",
+          "period": "/month",
+          "description": "For side projects and small teams.",
+          "features": "Up to 10k events / month\n3 dashboards\n7-day history\nCommunity support",
+          "ctaLabel": "Start free",
+          "ctaLink": "#",
+          "highlighted": false,
+          "badge": ""
+        },
+        {
+          "name": "Growth",
+          "price": "$49",
+          "period": "/month",
+          "description": "For teams making decisions with data.",
+          "features": "Up to 1M events / month\nUnlimited dashboards\nAI explanations\n12-month history\nSlack & email alerts",
+          "ctaLabel": "Start 14-day trial",
+          "ctaLink": "#",
+          "highlighted": true,
+          "badge": "Most popular"
+        },
+        {
+          "name": "Scale",
+          "price": "Custom",
+          "period": "",
+          "description": "For large orgs with advanced needs.",
+          "features": "Unlimited events\nSSO & audit logs\nData warehouse sync\nDedicated success manager\n99.99% uptime SLA",
+          "ctaLabel": "Talk to sales",
+          "ctaLink": "/contact",
+          "highlighted": false,
+          "badge": ""
+        }
+      ],
+      "note": "Prices in USD. Save 20% with annual billing.",
+      "tone": "muted",
+      "space": "md",
+      "anchor": "pricing"
+    },
+    {
+      "id": "block-saas-009",
+      "type": "Faq",
+      "eyebrow": "FAQ",
+      "title": "Questions? *Answers.*",
+      "subtitle": "Can't find what you're looking for? Our team replies within the hour.",
+      "items": [
+        {
+          "question": "How long does setup take?",
+          "answer": "Most teams send their first events within 15 minutes using our snippet or one of 40+ integrations."
+        },
+        {
+          "question": "Do I need a data team to use Lumen?",
+          "answer": "No. Lumen is built for product, growth and marketing teams. Questions are answered in plain language, no SQL required."
+        },
+        {
+          "question": "Can I cancel anytime?",
+          "answer": "Yes. Plans are month-to-month and you can export all of your data whenever you like."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Data is encrypted in transit and at rest, and we're SOC 2 Type II certified. Scale plans add SSO and audit logs."
+        },
+        {
+          "question": "Do you offer discounts for startups or non-profits?",
+          "answer": "Yes: 50% off Growth for the first year. Contact us with a few details about your organisation."
+        }
+      ],
+      "contactLabel": "Contact support",
+      "contactLink": "/contact",
+      "layout": "split",
+      "openFirst": true,
+      "tone": "light",
+      "space": "md",
+      "anchor": "faq"
+    },
+    {
+      "id": "block-saas-010",
+      "type": "CTA",
+      "title": "Start understanding your *users* today",
+      "subtitle": "Free for 14 days. No credit card required.",
+      "primaryLabel": "Start free trial",
+      "primaryLink": "/pricing",
+      "secondaryLabel": "Book a demo",
+      "secondaryLink": "/contact",
+      "variant": "card",
+      "align": "center",
+      "tone": "brand",
+      "space": "md"
+    },
+    {
+      "id": "block-saas-011",
+      "type": "Footer",
+      "brandName": "Lumen",
+      "description": "Product analytics that explain themselves. Built for teams who would rather act than write queries.",
+      "columns": [
+        {
+          "title": "Product",
+          "links": "Features | /#features\nPricing | /pricing\nChangelog | #\nRoadmap | #"
+        },
+        {
+          "title": "Company",
+          "links": "About | #\nCustomers | /#customers\nCareers | #\nContact | /contact"
+        },
+        {
+          "title": "Resources",
+          "links": "Docs | #\nGuides | #\nAPI status | #"
+        }
+      ],
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "#"
+        },
+        {
+          "icon": "linkedin",
+          "link": "#"
+        },
+        {
+          "icon": "github",
+          "link": "#"
+        }
+      ],
+      "legal": "Privacy | #\nTerms | #",
+      "copyright": "© {year} Lumen Analytics, Inc.",
+      "tone": "muted"
+    }
+  ],
+  "settings": {
+    "layout": "default",
+    "accentColor": "#4f46e5",
+    "font": "modern",
+    "corners": "soft",
+    "containerWidth": "full",
+    "pagePadding": "none",
+    "maxWidth": "1280",
+    "footerSpacing": false
+  }
+}

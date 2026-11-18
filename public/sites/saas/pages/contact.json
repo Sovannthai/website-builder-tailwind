@@ -1,0 +1,144 @@
+{
+  "blocks": [
+    {
+      "id": "block-saas-019",
+      "type": "AppHeader",
+      "brandName": "Lumen",
+      "menus": [
+        {
+          "title": "Product",
+          "path": "/#features",
+          "children": [
+            {
+              "title": "Analytics",
+              "path": "/#features"
+            },
+            {
+              "title": "Dashboards",
+              "path": "/#features"
+            },
+            {
+              "title": "Integrations",
+              "path": "/#features"
+            }
+          ]
+        },
+        {
+          "title": "Pricing",
+          "path": "/pricing"
+        },
+        {
+          "title": "Customers",
+          "path": "/#customers"
+        },
+        {
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "ctaLabel": "Start free",
+      "ctaLink": "/pricing",
+      "secondaryLabel": "Log in",
+      "secondaryLink": "#",
+      "variant": "glass",
+      "sticky": true
+    },
+    {
+      "id": "block-saas-020",
+      "type": "Banner",
+      "eyebrow": "Contact",
+      "title": "Let's *talk*",
+      "subtitle": "Questions about plans, a demo, or a partnership? We'd love to hear from you.",
+      "breadcrumb": "Contact",
+      "align": "center",
+      "background": "glow",
+      "tone": "light",
+      "homeLabel": "Home"
+    },
+    {
+      "id": "block-saas-021",
+      "type": "ContactForm",
+      "eyebrow": "Sales & support",
+      "title": "We reply within *one business day*",
+      "subtitle": "Tell us a bit about your team and what you're trying to learn.",
+      "details": [
+        {
+          "icon": "email-outline",
+          "label": "Email",
+          "value": "hello@lumen.app",
+          "link": "mailto:hello@lumen.app"
+        },
+        {
+          "icon": "chat-outline",
+          "label": "Live chat",
+          "value": "Mon–Fri, 8am–6pm"
+        },
+        {
+          "icon": "map-marker-outline",
+          "label": "Office",
+          "value": "Remote-first, HQ in Lisbon"
+        }
+      ],
+      "showPhone": false,
+      "topics": "Book a demo\nPricing question\nTechnical support\nPartnerships",
+      "submitLabel": "Send message",
+      "tone": "light",
+      "space": "sm",
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "topicLabel": "Topic",
+      "messageLabel": "Message",
+      "errorMessage": "Something went wrong. Please try again.",
+      "anchor": "contact",
+      "successMessage": "Thanks! We'll get back to you soon."
+    },
+    {
+      "id": "block-saas-022",
+      "type": "Footer",
+      "brandName": "Lumen",
+      "description": "Product analytics that explain themselves. Built for teams who would rather act than write queries.",
+      "columns": [
+        {
+          "title": "Product",
+          "links": "Features | /#features\nPricing | /pricing\nChangelog | #\nRoadmap | #"
+        },
+        {
+          "title": "Company",
+          "links": "About | #\nCustomers | /#customers\nCareers | #\nContact | /contact"
+        },
+        {
+          "title": "Resources",
+          "links": "Docs | #\nGuides | #\nAPI status | #"
+        }
+      ],
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "#"
+        },
+        {
+          "icon": "linkedin",
+          "link": "#"
+        },
+        {
+          "icon": "github",
+          "link": "#"
+        }
+      ],
+      "legal": "Privacy | #\nTerms | #",
+      "copyright": "© {year} Lumen Analytics, Inc.",
+      "tone": "muted"
+    }
+  ],
+  "settings": {
+    "layout": "default",
+    "accentColor": "#4f46e5",
+    "font": "modern",
+    "corners": "soft",
+    "containerWidth": "full",
+    "pagePadding": "none",
+    "maxWidth": "1280",
+    "footerSpacing": false
+  }
+}

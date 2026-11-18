@@ -1,0 +1,174 @@
+{
+  "blocks": [
+    {
+      "id": "block-agency-011",
+      "type": "AppHeader",
+      "brandName": "Northbound",
+      "menus": [
+        {
+          "title": "Work",
+          "path": "/#work"
+        },
+        {
+          "title": "Services",
+          "path": "/#services"
+        },
+        {
+          "title": "Studio",
+          "path": "/about"
+        },
+        {
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "ctaLabel": "Start a project",
+      "ctaLink": "/contact",
+      "variant": "dark",
+      "sticky": true
+    },
+    {
+      "id": "block-agency-012",
+      "type": "Banner",
+      "eyebrow": "The studio",
+      "title": "Design with *intent*",
+      "subtitle": "We're a team of twelve designers and engineers working out of Copenhagen and Lisbon.",
+      "breadcrumb": "Studio",
+      "align": "left",
+      "background": "grid",
+      "tone": "dark",
+      "homeLabel": "Home"
+    },
+    {
+      "id": "block-agency-013",
+      "type": "Content",
+      "eyebrow": "Our approach",
+      "title": "Fewer projects. *Deeper* work.",
+      "body": "We take on a handful of clients at a time, so every project gets senior attention from kickoff to launch, and we stick around afterwards.",
+      "bullets": "Strategy first, pixels second\nOne team from brand to build\nTransparent, fixed-scope pricing",
+      "visual": "image",
+      "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80",
+      "aspect": "4/3",
+      "mediaSide": "left",
+      "tone": "light",
+      "space": "lg",
+      "mockupStats": [
+        {
+          "label": "Revenue",
+          "value": "$48.2k",
+          "change": "+12.4%",
+          "trend": "up"
+        },
+        {
+          "label": "Users",
+          "value": "3,904",
+          "change": "+8.1%",
+          "trend": "up"
+        },
+        {
+          "label": "Churn",
+          "value": "1.2%",
+          "change": "-0.4%",
+          "trend": "up"
+        }
+      ]
+    },
+    {
+      "id": "block-agency-014",
+      "type": "Team",
+      "eyebrow": "People",
+      "title": "Meet the *team*",
+      "members": [
+        {
+          "name": "Ava Lindqvist",
+          "role": "Founder & Creative Director",
+          "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&h=750&q=80",
+          "link": "#"
+        },
+        {
+          "name": "Noah Becker",
+          "role": "Design Lead",
+          "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&h=750&q=80",
+          "link": "#"
+        },
+        {
+          "name": "Leila Haddad",
+          "role": "Head of Technology",
+          "photo": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&h=750&q=80",
+          "link": "#"
+        },
+        {
+          "name": "Sam Ortega",
+          "role": "Motion Designer",
+          "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&h=750&q=80",
+          "link": "#"
+        }
+      ],
+      "align": "left",
+      "tone": "muted",
+      "space": "md"
+    },
+    {
+      "id": "block-agency-015",
+      "type": "CTA",
+      "eyebrow": "Have a project in mind?",
+      "title": "Let's make something *remarkable*",
+      "subtitle": "Tell us where you want to go. We'll reply within two working days with next steps.",
+      "primaryLabel": "Start a project",
+      "primaryLink": "/contact",
+      "secondaryLabel": "hello@northbound.studio",
+      "secondaryLink": "mailto:hello@northbound.studio",
+      "variant": "band",
+      "align": "left",
+      "tone": "brand",
+      "space": "lg"
+    },
+    {
+      "id": "block-agency-016",
+      "type": "Footer",
+      "brandName": "Northbound",
+      "description": "An independent design & technology studio. We build brands, products and websites for ambitious teams.",
+      "columns": [
+        {
+          "title": "Studio",
+          "links": "About | /about\nWork | /#work\nCareers | #"
+        },
+        {
+          "title": "Services",
+          "links": "Brand identity | /#services\nWeb design | /#services\nProduct design | /#services\nDevelopment | /#services"
+        },
+        {
+          "title": "Say hi",
+          "links": "hello@northbound.studio | mailto:hello@northbound.studio\nInstagram | #\nVimeo | #"
+        }
+      ],
+      "socials": [
+        {
+          "icon": "instagram",
+          "link": "#"
+        },
+        {
+          "icon": "vimeo",
+          "link": "#"
+        },
+        {
+          "icon": "linkedin",
+          "link": "#"
+        }
+      ],
+      "legal": "Privacy | #\nImprint | #",
+      "copyright": "© {year} Northbound Studio",
+      "tone": "dark"
+    }
+  ],
+  "settings": {
+    "layout": "default",
+    "accentColor": "#c6f432",
+    "font": "tech",
+    "corners": "sharp",
+    "containerWidth": "full",
+    "pagePadding": "none",
+    "maxWidth": "1280",
+    "footerSpacing": false
+  }
+}

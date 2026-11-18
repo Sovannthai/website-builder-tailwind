@@ -1,0 +1,58 @@
+/* Font families offered by the page-settings "Font" option (see
+   app/page-builder/default/layout/default.vue). */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-error: #dc3545;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Kit text sizes (named so they don't depend on Tailwind's defaults). */
+  --text-fine: 0.8125rem;
+  --text-fine--line-height: 1.25rem;
+  --text-small: 0.9375rem;
+  --text-small--line-height: 1.5rem;
+  --text-lead: 1.125rem;
+  --text-lead--line-height: 1.75rem;
+  --text-big: 1.25rem;
+  --text-big--line-height: 1.875rem;
+}
+
+/* ------------------------------------------------------------------
+   Site theme tokens for the modern block kit. The page layout sets the
+   --pb-* variables from Page settings (accent colour, font, corners), so
+   one set of blocks can look like very different websites. Utilities:
+   bg-brand / border-brand (+ /10 opacity), text-brand-text (accent for
+   text/icons, readable on the section's tone), text-brand-ink (readable
+   text on an accent background), text-ink, font-display, font-body,
+   rounded-card, rounded-btn.
+   ------------------------------------------------------------------ */
+@theme inline {
+  --color-brand: var(--pb-accent, #4f46e5);
+  --color-brand-ink: var(--pb-accent-ink, #ffffff);
+  /* Accent for text and icons. Sections set it per tone: a darker shade on
+     light backgrounds when the accent itself is light (e.g. lime). */
+  --color-brand-text: var(--pb-brand-text, var(--pb-accent, #4f46e5));
+  --color-ink: var(--pb-ink, #0f172a);
+  --color-night: var(--pb-night, #0b1020);
+  --font-display: var(--pb-font-display, "Inter", ui-sans-serif, system-ui, sans-serif);
+  --font-body: var(--pb-font-body, "Inter", ui-sans-serif, system-ui, sans-serif);
+  --radius-card: var(--pb-radius, 1rem);
+  --radius-btn: var(--pb-radius-btn, 9999px);
+}
+
+body {
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Page-builder block spacing override: remove the top gap that
+   vue-wswg-editor's block-margin mixin adds (classes are added at runtime). */
+.page-renderer-wrapper .block-wrapper > *.margin-top-sm.margin-top-sm,
+.block-wrapper.margin-top-sm.margin-top-sm {
+  padding-top: 0;
+}
+.page-renderer-wrapper .block-wrapper > *.margin-top-sm.margin-top-sm::before,
+.block-wrapper.margin-top-sm.margin-top-sm::before {
+  display: none;
+  content: none;
+}

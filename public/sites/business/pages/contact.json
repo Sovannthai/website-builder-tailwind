@@ -1,0 +1,150 @@
+{
+  "blocks": [
+    {
+      "id": "block-business-018",
+      "type": "AppHeader",
+      "brandName": "Evergreen Partners",
+      "menus": [
+        {
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "title": "Services",
+          "path": "/#services",
+          "children": [
+            {
+              "title": "Strategy",
+              "path": "/#services"
+            },
+            {
+              "title": "Operations",
+              "path": "/#services"
+            },
+            {
+              "title": "Finance & risk",
+              "path": "/#services"
+            }
+          ]
+        },
+        {
+          "title": "About",
+          "path": "/about"
+        },
+        {
+          "title": "Insights",
+          "path": "/#insights"
+        },
+        {
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "ctaLabel": "Book a consultation",
+      "ctaLink": "/contact",
+      "variant": "light",
+      "sticky": true
+    },
+    {
+      "id": "block-business-019",
+      "type": "Banner",
+      "eyebrow": "Contact",
+      "title": "Book a *free consultation*",
+      "subtitle": "Tell us about your company and we'll match you with the right partner.",
+      "breadcrumb": "Contact",
+      "align": "center",
+      "background": "glow",
+      "tone": "light",
+      "homeLabel": "Home"
+    },
+    {
+      "id": "block-business-020",
+      "type": "ContactForm",
+      "title": "We'd love to *hear from you*",
+      "details": [
+        {
+          "icon": "phone-outline",
+          "label": "Phone",
+          "value": "+1 (555) 014-2290",
+          "link": "tel:+15550142290"
+        },
+        {
+          "icon": "email-outline",
+          "label": "Email",
+          "value": "info@evergreen.partners",
+          "link": "mailto:info@evergreen.partners"
+        },
+        {
+          "icon": "map-marker-outline",
+          "label": "Head office",
+          "value": "100 Federal St, Boston, MA"
+        },
+        {
+          "icon": "clock-outline",
+          "label": "Hours",
+          "value": "Mon–Fri, 9am–6pm"
+        }
+      ],
+      "showPhone": true,
+      "topics": "Strategy\nOperations\nFinance & risk\nOther",
+      "submitLabel": "Request consultation",
+      "tone": "light",
+      "space": "sm",
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "topicLabel": "Topic",
+      "messageLabel": "Message",
+      "errorMessage": "Something went wrong. Please try again.",
+      "anchor": "contact",
+      "successMessage": "Thanks! We'll get back to you soon."
+    },
+    {
+      "id": "block-business-021",
+      "type": "Footer",
+      "brandName": "Evergreen Partners",
+      "description": "Independent advisors helping growing companies plan clearly, operate efficiently and grow sustainably.",
+      "columns": [
+        {
+          "title": "Services",
+          "links": "Strategy | /#services\nOperations | /#services\nFinance & risk | /#services"
+        },
+        {
+          "title": "Company",
+          "links": "About us | /about\nInsights | /#insights\nCareers | #"
+        },
+        {
+          "title": "Contact",
+          "links": "+1 (555) 014-2290 | tel:+15550142290\ninfo@evergreen.partners | mailto:info@evergreen.partners\nBook a call | /contact"
+        }
+      ],
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "#"
+        },
+        {
+          "icon": "facebook",
+          "link": "#"
+        },
+        {
+          "icon": "youtube",
+          "link": "#"
+        }
+      ],
+      "legal": "Privacy policy | #\nTerms of service | #",
+      "copyright": "© {year} Evergreen Partners LLC. All rights reserved.",
+      "tone": "dark"
+    }
+  ],
+  "settings": {
+    "layout": "default",
+    "accentColor": "#0f766e",
+    "font": "editorial",
+    "corners": "round",
+    "containerWidth": "full",
+    "pagePadding": "none",
+    "maxWidth": "1280",
+    "footerSpacing": false
+  }
+}

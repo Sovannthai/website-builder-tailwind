@@ -1,0 +1,38 @@
+{
+  "menus": [
+    {
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "title": "Services",
+      "path": "/#services",
+      "children": [
+        {
+          "title": "Strategy",
+          "path": "/#services"
+        },
+        {
+          "title": "Operations",
+          "path": "/#services"
+        },
+        {
+          "title": "Finance & risk",
+          "path": "/#services"
+        }
+      ]
+    },
+    {
+      "title": "About",
+      "path": "/about"
+    },
+    {
+      "title": "Insights",
+      "path": "/#insights"
+    },
+    {
+      "title": "Contact",
+      "path": "/contact"
+    }
+  ]
+}

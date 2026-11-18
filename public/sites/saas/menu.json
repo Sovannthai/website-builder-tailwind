@@ -1,0 +1,38 @@
+{
+  "menus": [
+    {
+      "id": "9ae417f8-842c-4143-82b6-077ea6b428e5",
+      "title": "Product",
+      "path": "/#features",
+      "children": [
+        {
+          "title": "Analytics",
+          "path": "/#features"
+        },
+        {
+          "title": "Dashboards",
+          "path": "/#features"
+        },
+        {
+          "title": "Integrations",
+          "path": "/#features"
+        }
+      ]
+    },
+    {
+      "id": "8d4131c4-075f-40db-bac1-3be3e4e5c2a9",
+      "title": "Pricing",
+      "path": "/pricing"
+    },
+    {
+      "id": "361182e0-4fd5-4566-a40a-7096ad61af61",
+      "title": "Customers",
+      "path": "/#customers"
+    },
+    {
+      "id": "7cde9997-7496-4bf7-8ab7-b3baeb914d72",
+      "title": "Contact",
+      "path": "/contact"
+    }
+  ]
+}

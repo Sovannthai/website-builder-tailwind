@@ -1,0 +1,348 @@
+{
+  "blocks": [
+    {
+      "id": "block-business-001",
+      "type": "AppHeader",
+      "brandName": "Evergreen Partners",
+      "menus": [
+        {
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "title": "Services",
+          "path": "/#services",
+          "children": [
+            {
+              "title": "Strategy",
+              "path": "/#services"
+            },
+            {
+              "title": "Operations",
+              "path": "/#services"
+            },
+            {
+              "title": "Finance & risk",
+              "path": "/#services"
+            }
+          ]
+        },
+        {
+          "title": "About",
+          "path": "/about"
+        },
+        {
+          "title": "Insights",
+          "path": "/#insights"
+        },
+        {
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "ctaLabel": "Book a consultation",
+      "ctaLink": "/contact",
+      "variant": "light",
+      "sticky": true
+    },
+    {
+      "id": "block-business-002",
+      "type": "Hero",
+      "title": "Clear advice for *growing* companies",
+      "subtitle": "Evergreen Partners helps founders and leadership teams make confident decisions on strategy, operations and finance.",
+      "primaryLabel": "Book a consultation",
+      "primaryLink": "/contact",
+      "secondaryLabel": "Our services",
+      "secondaryLink": "#services",
+      "note": "Free 30-minute first meeting",
+      "layout": "split",
+      "visual": "image",
+      "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1400&q=80",
+      "background": "glow",
+      "tone": "light",
+      "badgeTag": "New",
+      "badgeLink": "#",
+      "mockupStats": [
+        {
+          "label": "Revenue",
+          "value": "$48.2k",
+          "change": "+12.4%",
+          "trend": "up"
+        },
+        {
+          "label": "Users",
+          "value": "3,904",
+          "change": "+8.1%",
+          "trend": "up"
+        },
+        {
+          "label": "Churn",
+          "value": "1.2%",
+          "change": "-0.4%",
+          "trend": "up"
+        }
+      ],
+      "tilt": false,
+      "video": "",
+      "videoPoster": "",
+      "shape": "knot",
+      "model": "",
+      "autoRotate": true,
+      "backgroundVideo": ""
+    },
+    {
+      "id": "block-business-003",
+      "type": "LogoCloud",
+      "title": "Advising companies across finance, retail, healthcare and technology",
+      "tone": "light",
+      "space": "sm",
+      "logos": [
+        {
+          "name": "Harbor Bank",
+          "icon": "bank-outline"
+        },
+        {
+          "name": "Medline+",
+          "icon": "hospital-box-outline"
+        },
+        {
+          "name": "Greenway",
+          "icon": "sprout-outline"
+        },
+        {
+          "name": "Atlas Retail",
+          "icon": "storefront-outline"
+        },
+        {
+          "name": "Coreline",
+          "icon": "domain"
+        }
+      ]
+    },
+    {
+      "id": "block-business-004",
+      "type": "Features",
+      "eyebrow": "Services",
+      "title": "How we *help*",
+      "subtitle": "Practical support from people who have run businesses, not just advised them.",
+      "layout": "cards",
+      "columns": "3",
+      "align": "center",
+      "tone": "muted",
+      "space": "md",
+      "anchor": "services",
+      "items": [
+        {
+          "icon": "compass-outline",
+          "title": "Strategy",
+          "description": "Market entry, growth planning and board-ready strategy that your team can execute.",
+          "link": "/contact"
+        },
+        {
+          "icon": "cog-sync-outline",
+          "title": "Operations",
+          "description": "Streamline processes, systems and teams so growth doesn't break what works.",
+          "link": "/contact"
+        },
+        {
+          "icon": "finance",
+          "title": "Finance & risk",
+          "description": "Forecasting, fundraising readiness and risk frameworks investors trust.",
+          "link": "/contact"
+        }
+      ],
+      "linkLabel": "Learn more"
+    },
+    {
+      "id": "block-business-005",
+      "type": "Content",
+      "eyebrow": "About us",
+      "title": "Twenty years of *hands-on* experience",
+      "body": "Our partners have led companies through growth, turnarounds and acquisitions. We bring that experience to every engagement: honest advice, clear plans and support until the results show.",
+      "bullets": "Senior partners on every engagement\nFixed fees agreed up front\nOffices in Boston, Toronto and London",
+      "buttonLabel": "More about us",
+      "buttonLink": "/about",
+      "visual": "image",
+      "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80",
+      "aspect": "4/3",
+      "mediaSide": "left",
+      "tone": "light",
+      "space": "md",
+      "mockupStats": [
+        {
+          "label": "Revenue",
+          "value": "$48.2k",
+          "change": "+12.4%",
+          "trend": "up"
+        },
+        {
+          "label": "Users",
+          "value": "3,904",
+          "change": "+8.1%",
+          "trend": "up"
+        },
+        {
+          "label": "Churn",
+          "value": "1.2%",
+          "change": "-0.4%",
+          "trend": "up"
+        }
+      ]
+    },
+    {
+      "id": "block-business-006",
+      "type": "Stats",
+      "tone": "brand",
+      "space": "md",
+      "variant": "divided",
+      "align": "center",
+      "items": [
+        {
+          "value": "20+",
+          "label": "Years of experience"
+        },
+        {
+          "value": "350",
+          "label": "Clients advised"
+        },
+        {
+          "value": "$1.2B",
+          "label": "Capital raised by clients"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Client satisfaction"
+        }
+      ]
+    },
+    {
+      "id": "block-business-007",
+      "type": "Testimonials",
+      "eyebrow": "Client stories",
+      "title": "Trusted by *leadership teams*",
+      "layout": "grid",
+      "showRating": true,
+      "align": "center",
+      "tone": "light",
+      "space": "md",
+      "items": [
+        {
+          "quote": "Evergreen gave us a plan we could actually execute. Twelve months later we'd doubled revenue and closed our Series B.",
+          "name": "Rachel Adams",
+          "role": "CEO, Greenway Foods",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=160&h=160&q=80"
+        },
+        {
+          "quote": "Straight talk, sharp thinking and they never disappeared after the slide deck.",
+          "name": "Michael Grant",
+          "role": "COO, Harbor Bank",
+          "avatar": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=160&h=160&q=80"
+        },
+        {
+          "quote": "They untangled our operations in weeks. Our team finally has room to think.",
+          "name": "Priya Nair",
+          "role": "Founder, Medline+",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=160&h=160&q=80"
+        }
+      ]
+    },
+    {
+      "id": "block-business-008",
+      "type": "BlogPreview",
+      "eyebrow": "Insights",
+      "title": "Latest *insights*",
+      "subtitle": "Short, practical reading for busy leaders.",
+      "buttonLabel": "All insights",
+      "buttonLink": "#",
+      "tone": "muted",
+      "space": "md",
+      "posts": [
+        {
+          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80",
+          "title": "Five numbers every founder should review weekly",
+          "excerpt": "A one-page dashboard that catches problems early, without a finance team.",
+          "category": "Finance",
+          "date": "Oct 28, 2026",
+          "link": "#"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=900&q=80",
+          "title": "Planning a year you can actually execute",
+          "excerpt": "Why most annual plans fail by March, and a simpler way to set priorities.",
+          "category": "Strategy",
+          "date": "Oct 14, 2026",
+          "link": "#"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1604881991720-f91add269bed?auto=format&fit=crop&w=900&q=80",
+          "title": "Scaling a team without losing the culture",
+          "excerpt": "Lessons from 40 companies that grew past 100 people.",
+          "category": "Operations",
+          "date": "Sep 30, 2026",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": "block-business-009",
+      "type": "CTA",
+      "title": "Let's plan your *next chapter*",
+      "subtitle": "Book a free 30-minute consultation with one of our partners.",
+      "primaryLabel": "Book a consultation",
+      "primaryLink": "/contact",
+      "secondaryLabel": "Call +1 (555) 014-2290",
+      "secondaryLink": "tel:+15550142290",
+      "variant": "card",
+      "align": "center",
+      "tone": "dark",
+      "space": "md"
+    },
+    {
+      "id": "block-business-010",
+      "type": "Footer",
+      "brandName": "Evergreen Partners",
+      "description": "Independent advisors helping growing companies plan clearly, operate efficiently and grow sustainably.",
+      "columns": [
+        {
+          "title": "Services",
+          "links": "Strategy | /#services\nOperations | /#services\nFinance & risk | /#services"
+        },
+        {
+          "title": "Company",
+          "links": "About us | /about\nInsights | /#insights\nCareers | #"
+        },
+        {
+          "title": "Contact",
+          "links": "+1 (555) 014-2290 | tel:+15550142290\ninfo@evergreen.partners | mailto:info@evergreen.partners\nBook a call | /contact"
+        }
+      ],
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "#"
+        },
+        {
+          "icon": "facebook",
+          "link": "#"
+        },
+        {
+          "icon": "youtube",
+          "link": "#"
+        }
+      ],
+      "legal": "Privacy policy | #\nTerms of service | #",
+      "copyright": "© {year} Evergreen Partners LLC. All rights reserved.",
+      "tone": "dark"
+    }
+  ],
+  "settings": {
+    "layout": "default",
+    "accentColor": "#0f766e",
+    "font": "editorial",
+    "corners": "round",
+    "containerWidth": "full",
+    "pagePadding": "none",
+    "maxWidth": "1280",
+    "footerSpacing": false
+  }
+}
