@@ -125,7 +125,7 @@ All settings are optional. Set them as environment variables (for example in a `
 | `NUXT_PAGE_STORAGE_MENU_COLLECTION` | `site_menu` | Collection holding each site's shared menu (`site`, `menus` fields) |
 | `NUXT_PAGE_STORAGE_TOKEN` | | Bearer token for the backend |
 
-The `http` driver expects Directus-style endpoints (`/items/<collection>`). The front end still reads pages as static files from `/sites/...`, so with a non-filesystem driver those reads need to go through the API too.
+The `http` driver expects Directus-style endpoints (`/items/<collection>`). The editor and published pages read pages through `/api/page`, so they work with either driver.
 
 ### Uploads
 
@@ -153,8 +153,24 @@ node .output/server/index.mjs
 ```
 
 - With `filesystem` storage, the server needs a **writable, persistent disk** for `public/sites/` and the upload folder.
-- On serverless hosts, use `NUXT_PAGE_STORAGE=http` with a Directus backend.
+- On serverless hosts such as **Vercel**, the disk is read-only, so the default `filesystem` driver can't list, create or save sites. Use `NUXT_PAGE_STORAGE=http` with a Directus backend (see [Vercel](#vercel) below).
 - **The save and upload endpoints have no authentication.** Put the builder behind a login or a private network when you host it. Deploy exported sites publicly instead.
+
+### Vercel
+
+1. In Directus, create two collections:
+   - `pages` with fields `site` (string), `slug` (string) and `data` (JSON);
+   - `site_menu` with fields `site` (string) and `menus` (JSON).
+2. Create a Directus token (or role) that can read, create and update both collections, plus `directus_files` if you want uploads.
+3. In Vercel → Project → Settings → Environment Variables, set:
+   ```
+   NUXT_PAGE_STORAGE=http
+   NUXT_PAGE_STORAGE_URL=https://your-directus.example.com
+   NUXT_PAGE_STORAGE_TOKEN=<token>
+   ```
+4. Redeploy.
+
+With `http` storage, a new site shows up in the 🌐 list once its first page is saved. The template sites in `public/sites/` are not copied into Directus automatically.
 
 ## Project structure
 

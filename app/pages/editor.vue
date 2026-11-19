@@ -201,14 +201,15 @@ function createPage() {
   navigateTo({ path: "/editor", query: { site: siteName.value, page: slug } });
 }
 
-/** Static path of a page's saved JSON: public/sites/<site>/pages/<page>.json */
-const pageJsonUrl = (site: string, page: string) => `/sites/${site}/pages/${page}.json`;
+/** A saved page, read through the storage adapter (server/api/page.get.ts). */
+const fetchPage = (site: string, page: string) =>
+  $fetch<Record<string, any>>("/api/page", { query: { site, page } });
 
 async function loadPageData() {
   pageData.value = { blocks: [], settings: { layout: "default" } };
 
   try {
-    const existing = await $fetch<Record<string, any>>(pageJsonUrl(siteName.value, pageName.value));
+    const existing = await fetchPage(siteName.value, pageName.value);
     if (existing?.blocks) {
       pageData.value = existing;
     } else {
@@ -226,7 +227,7 @@ async function loadPageData() {
 async function seedFromHomePage() {
   if (pageName.value === "index") return; // nothing to seed from
   try {
-    const home = await $fetch<Record<string, any>>(pageJsonUrl(siteName.value, "index"));
+    const home = await fetchPage(siteName.value, "index");
     const blocks = home?.blocks ?? [];
     if (!blocks.length) return;
     const header = blocks.find((b: any) => b?.type === "AppHeader");

@@ -15,9 +15,9 @@ const siteName = computed(() => String(route.params.site));
 const pageName = computed(() => String(route.params.page));
 
 const { data: pbData } = await useAsyncData(`pb-${siteName.value}-${pageName.value}`, () =>
-  $fetch<Record<string, any>>(`/sites/${siteName.value}/pages/${pageName.value}.json`).catch(
-    () => null
-  )
+  $fetch<Record<string, any>>("/api/page", {
+    query: { site: siteName.value, page: pageName.value },
+  }).catch(() => null)
 );
 
 // 404 if this site has no such page
